@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template</title>
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 10px;
+    "
+  >
+    <div
+      style="
+        background-color: #ffe8c5;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 2px solid #000000;
+        text-align: start;
+        font-size: 16px;
+      "
+    >
+      A new contact form submission has been received. Below are the details:
+      <br />
+      <br />
+      <strong>Name:</strong>
+      <%= name %>
+      <br />
+      <strong>Email:</strong>
+      <%= email %>
+      <br />
+      <strong>Message:&nbsp; <br /> </strong><%= message %>
+      <br />
+    </div>
+  </body>
+</html>
