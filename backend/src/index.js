@@ -12,7 +12,10 @@ const app = express();
 // CORS Configuration
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: [
+      "http://localhost:5173",
+      "https://portfolio-frontend-2e2w.onrender.com",
+    ],
     credentials: true,
   })
 );
@@ -22,7 +25,7 @@ app.use(express.json());
 // Rate Limiting - Max 5 requests per IP in 2 days
 const limiter = rateLimit({
   windowMs: 2 * 24 * 60 * 60 * 1000, // 2 days in milliseconds
-  max:2, // Max 2 requests per window per IP
+  max: 2, // Max 2 requests per window per IP
   message: "Too many requests, please try again later.",
 });
 
