@@ -80,7 +80,7 @@ const HeroSection = () => {
             </TextReveal>
 
             <div className="my-3">
-              <a href={"https://drive.google.com/file/d/1iv9ergFEyo3TAxSsaz41uH2CG2KGHRX0/view?usp=drive_link"} target="_blank">
+              <a href={"https://drive.google.com/file/d/1nCBigSrd561TJpboM6-LNmcHWsZeStYW/view?usp=drivesdk"} target="_blank">
                 <Button size="lg" className="px-6 py-4 text-lg">
                   My Resume
                 </Button>

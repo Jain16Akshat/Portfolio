@@ -29,7 +29,7 @@ const Header = () => {
                 </div>
                 <div className="basis-1/6 flex items-center justify-end gap-2">
                     <a
-                        href="https://drive.google.com/file/d/1iv9ergFEyo3TAxSsaz41uH2CG2KGHRX0/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/1nCBigSrd561TJpboM6-LNmcHWsZeStYW/view?usp=drivesdk"
                         target="_blank"
                     >
                         <Button className="font-bold">Resume</Button>
