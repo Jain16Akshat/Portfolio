@@ -15,7 +15,7 @@ const codingPlatforms = [
 
 const CodingPlatform = () => {
     return (
-        <Section className="flex flex-col gap-6 p-11 border-y border-border text-center">
+        <Section className="flex flex-col gap-6 p-11 border-y border-border text-center overflow-hidden">
             <h2 className="block text-center mb-6">Coding Platforms</h2>
             <div className="flex flex-wrap justify-center items-center gap-20 max-md:flex-col">
                 {codingPlatforms.map((platform, index) => (
