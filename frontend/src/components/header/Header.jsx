@@ -14,7 +14,7 @@ const Header = () => {
                 <h1 className="basis-1/6 flex justify-center items-center">
                     <Link
                         href="/"
-                        className="text-primary text-2xl font-bold hover:text-primary no-underline text-nowrap select-none flex items-center gap-3 h-10 max-mobile-sm:h-8"
+                        className="text-primary text-2xl font-bold hover:text-primary no-underline text-wrap select-none flex items-center gap-3 h-10 max-mobile-sm:h-8"
                     >
                         <img
                             src={logo}

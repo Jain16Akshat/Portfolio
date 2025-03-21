@@ -49,7 +49,7 @@ const HeroSection = () => {
               </svg>
             </div>
           </div>
-          <div className="absolute bottom-[20%] left-[5%] right-[20%] w-44 max-mobile-lg:top-[25%] max-mobile-lg:ml-[10%]">
+          <div className="absolute bottom-[20%] left-[5%] right-[20%] w-44 max-mobile-lg:top-[20%] max-mobile-lg:ml-[10%]">
           <SocialIcons />
           </div>
 
