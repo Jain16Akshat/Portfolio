@@ -49,9 +49,6 @@ const HeroSection = () => {
               </svg>
             </div>
           </div>
-          <div className="absolute bottom-[20%] left-[5%] right-[20%] w-44 max-mobile-lg:top-[20%] max-mobile-lg:ml-[10%]">
-          <SocialIcons />
-          </div>
 
           {/* Left Content */}
           <div className="basis-1/2 flex flex-col justify-center items-start gap-2 p-4 z-10 relative">
@@ -97,9 +94,17 @@ const HeroSection = () => {
                   Contact
                 </Button>
               </a>
+              <div className="relative left-0 mt-10">
+                <SocialIcons />
+              </div>
             </div>
+
+            
           </div>
 
+          <div className="relative ml-[5%] bottom-[20%] w-44 max-mobile-lg:top-[20%] max-mobile-lg:ml-[10%]">
+          </div>
+          
           <div className="basis-1/2 flex justify-end items-end z-20 max-mobile-lg:mt-10 relative">
             <div>
               <motion.div

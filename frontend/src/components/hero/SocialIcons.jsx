@@ -58,7 +58,7 @@ const socialLinks = [
 
 export default function SocialIcons() {
     return (
-        <div className="absolute top-1/2 -translate-y-1/2 right-4 flex flex-row gap-8 z-30">
+        <div className=" -translate-y-1/2 flex flex-row gap-8 ">
             {socialLinks.map((link, index) => (
                 <motion.a
                     key={index}

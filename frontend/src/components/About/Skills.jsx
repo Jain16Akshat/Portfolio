@@ -50,7 +50,7 @@ const Skills = () => {
     };
 
     return (
-        <div className="flex flex-col gap-6 p-4">
+        <div className="flex flex-col gap-6 p-4 overflow-hidden">
             {Object.entries(categories).map(([category, skills]) => (
                 <motion.div
                     key={category}
